@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Koncepcja strony — firma remontowo-budowlana</title>
+<style>
+:root{--bg:#111318;--panel:#1c2029;--line:#343b49;--txt:#f5f5f2;--muted:#b8bec9;--accent:#e5a45d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 system-ui,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;background:#111318ee;border-bottom:1px solid var(--line);z-index:2}nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{font-weight:900;letter-spacing:.4px}.logo span{color:var(--accent)}.links{display:flex;gap:20px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:#21170d;padding:11px 17px;border-radius:9px;font-weight:800}
+.hero{padding:76px 0;display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center}.tag{color:var(--accent);font-size:12px;font-weight:900;letter-spacing:1.4px}.hero h1{font-size:clamp(38px,6vw,62px);line-height:1.06;margin:14px 0}.muted{color:var(--muted)}.photo{min-height:330px;border-radius:18px;background:linear-gradient(0deg,#080a10aa,#080a1010),url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80') center/cover;border:1px solid var(--line)}
+section{padding:58px 0}.heading{font-size:34px;margin:8px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:21px}.card h3{margin:8px 0}.card p{color:var(--muted);margin:0}.ico{font-size:25px;color:var(--accent)}.contact{background:linear-gradient(120deg,#302316,#1c2029);border:1px solid #66503a;border-radius:18px;padding:30px}.small{font-size:12px;color:#aab2c0}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}
+.notice{margin:20px 0;padding:14px 16px;border:1px solid #8b693e;border-radius:10px;background:#2b241b;color:#f2d8b8;font-size:13px}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding:50px 0}.grid{grid-template-columns:1fr}.links{display:none}.photo{min-height:220px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><a class="logo" href="#">REMONT <span>• GDAŃSK</span></a><div class="links"><a href="#uslugi">Usługi</a><a href="#realizacje">Realizacje</a><a href="#o-nas">O firmie</a><a href="#kontakt">Kontakt</a></div><a class="btn" href="#kontakt">Zapytaj o wycenę</a></nav></div></header>
+<main>
+<div class="wrap">
+<div class="notice"><b>Nieoficjalna koncepcja demonstracyjna.</b> To projekt przygotowany do portfolio, nie jest oficjalną stroną firmy R3N ani zleconą przez nią realizacją. Treści, zdjęcia i dane wymagają zatwierdzenia przez właściciela firmy przed ewentualnym użyciem.</div>
+<div class="hero"><div><div class="tag">USŁUGI REMONTOWO-BUDOWLANE • GDAŃSK</div><h1>Remont, który zaczyna się od dobrego planu.</h1><p class="muted">Przykładowa prezentacja usług remontowych i wykończeniowych. Klient może szybko sprawdzić zakres prac, zobaczyć realizacje i skontaktować się z wykonawcą.</p><a class="btn" href="#uslugi">Poznaj przykładowy zakres usług</a><p class="small">Tekst demonstracyjny — do dopasowania po uzgodnieniu z firmą.</p></div><div class="photo" role="img" aria-label="Przykładowe wnętrze remontowane"></div></div>
+<section id="uslugi"><div class="tag">OFERTA</div><h2 class="heading">Przykładowy zakres usług</h2><div class="grid">
+<div class="card"><div class="ico">▧</div><h3>Prace wykończeniowe</h3><p>Miejsce na zatwierdzony opis usług wykonywanych przez firmę.</p></div>
+<div class="card"><div class="ico">⌂</div><h3>Remonty wnętrz</h3><p>Możliwość przedstawienia zakresu remontów mieszkań i pomieszczeń.</p></div>
+<div class="card"><div class="ico">▤</div><h3>Przebudowy i modernizacje</h3><p>Opis konkretnych prac po potwierdzeniu ich przez właściciela firmy.</p></div>
+</div></section>
+<section id="realizacje"><div class="tag">GALERIA</div><h2 class="heading">Przykładowe realizacje</h2><p class="muted">W tym miejscu można dodać zdjęcia prawdziwych prac firmy — wyłącznie za zgodą właściciela zdjęć.</p><div class="grid">
+<div class="card"><div class="ico">01</div><h3>Realizacja 1</h3><p>Miejsce na zdjęcie i krótki opis zakresu prac.</p></div>
+<div class="card"><div class="ico">02</div><h3>Realizacja 2</h3><p>Miejsce na zdjęcie i krótki opis zakresu prac.</p></div>
+<div class="card"><div class="ico">03</div><h3>Realizacja 3</h3><p>Miejsce na zdjęcie i krótki opis zakresu prac.</p></div>
+</div></section>
+<section id="o-nas"><div class="tag">INFORMACJE</div><h2 class="heading">Kilka słów o firmie</h2><div class="card"><p class="muted">Tutaj można umieścić krótki, prawdziwy opis doświadczenia, obszaru działania i sposobu pracy. Treść należy uzgodnić z firmą — nie wpisujemy niepotwierdzonych informacji, certyfikatów ani opinii klientów.</p></div></section>
+<section id="kontakt"><div class="contact"><div class="tag">KONTAKT</div><h2 class="heading">Porozmawiajmy o Twoim remoncie.</h2><p class="muted">Po akceptacji projektu można dodać zatwierdzony numer telefonu, adres e-mail, obszar działania i formularz kontaktowy.</p><p><b>Telefon:</b> do uzupełnienia po zgodzie firmy</p><p><b>E-mail:</b> do uzupełnienia po zgodzie firmy</p><p><b>Lokalizacja:</b> Gdańsk — do potwierdzenia przez firmę</p><p class="small">Dane kontaktowe celowo pozostawiono jako pola do uzupełnienia. Formularz nie wysyła wiadomości.</p></div></section>
+</div></main>
+<footer><div class="wrap">Nieoficjalna koncepcja demonstracyjna do portfolio • Nie jest oficjalną stroną firmy R3N</div></footer>
+</body></html>
